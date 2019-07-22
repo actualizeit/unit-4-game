@@ -5,8 +5,13 @@
     border-style:solid;
     border-width:2px;
     border-color: rgb(255, 127, 249);
-    background-color:red;
+    /* background-color:red; */
     margin: 2px;
+}
+.HPRemaining{
+    background-color:greenyellow;
+    padding:0px;
+
 }
 .myGuy{
     display:inline-block;
