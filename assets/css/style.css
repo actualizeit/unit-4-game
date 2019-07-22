@@ -8,6 +8,28 @@
     background-color:red;
     margin: 2px;
 }
+.myGuy{
+    display:inline-block;
+    /* float:left; */
+    text-align: center;
+    border-style:solid;
+    border-width:2px;
+    border-color: rgb(255, 127, 249);
+    background-color:red;
+    margin: 2px;
+}
+.enemy{
+    display:inline-block;
+    /* float:left; */
+    text-align: center;
+    border-style:solid;
+    border-width:2px;
+    border-color: rgb(255, 127, 249);
+    background-color:red;
+    margin: 2px;
+}
+
+
 body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
