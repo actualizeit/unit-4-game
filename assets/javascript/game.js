@@ -7,6 +7,7 @@
 $(document).ready(function() {
     $(".character").on("click", function() {
         $(this).appendTo($("#yourCharacter"));
+        $(".placeholder").css("display","none")
     });
       
     
