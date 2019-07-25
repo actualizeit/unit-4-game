@@ -28,7 +28,8 @@ $(document).ready(function() {
         console.log(heroPicked)
         if(heroPicked == false){
         $(this).appendTo($("#yourCharacter"));
-        $(".placeholder").css("display","none")
+        $(".placeholder").css("display","none");
+        $("#choose").css("display","none");
         $(this).removeClass('character');
         $(this).addClass('myGuy');
         $(".character").appendTo($('#avalableEnemies'));
