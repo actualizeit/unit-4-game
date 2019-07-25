@@ -35,6 +35,7 @@ $(document).ready(function() {
         $(this).appendTo($("#yourCharacter"));
         $(".placeholder").css("display","none");
         $("#choose").css("display","none");
+        $("#schwartz").css("display","none");        
         $("#yourCharacter").css("display", "inline-block");
         $("#avalableEnemies").css("display", "inline-block");
         $(this).removeClass('character');
