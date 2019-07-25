@@ -10,18 +10,23 @@ $(document).ready(function() {
 
     //Stats: Health Points, Attack Power, Counter Attack Power
     obiWanStats = [140,6,12]
-    lukeStats =  [120,8,14]
-    sidiousStats =  [150,6,10]
-    maulStats =  [180,8,8]
+    lukeStats =  [120,7,13]
+    sidiousStats =  [150,5,11]
+    maulStats =  [170,5,10]
     myGuyStats = [];
     enemyStats = [];
     currentAttackPower = 0;
-    counter = 1;
+    attackCounter = 1;
+    enemiesCounter = 0;
 
     $(".obiWanHP").text(obiWanStats[0]);
     $(".lukeHP").text(lukeStats[0]);
     $(".sidiousHP").text(sidiousStats[0]);
     $(".maulHP").text(maulStats[0]);
+    $("#yourCharacter").css("display","none");
+    $("#avalableEnemies").css("display","none");
+    $("#fightSection").css("display","none");
+    $("#defender").css("display","none");
 
 
     $(".character").on("click", function() {
@@ -30,6 +35,8 @@ $(document).ready(function() {
         $(this).appendTo($("#yourCharacter"));
         $(".placeholder").css("display","none");
         $("#choose").css("display","none");
+        $("#yourCharacter").css("display", "inline-block");
+        $("#avalableEnemies").css("display", "inline-block");
         $(this).removeClass('character');
         $(this).addClass('myGuy');
         $(".character").appendTo($('#avalableEnemies'));
@@ -52,6 +59,8 @@ $(document).ready(function() {
         $(this).appendTo($("#defender"));
         $(this).removeClass('character');
         $(this).addClass('enemy');
+        $("#fightSection").css("display","inline-block");
+        $("#defender").css("display","inline-block");
         enemyAlive = true;
         if($(this).is('#obiWan')){
             enemyStats = obiWanStats
@@ -65,6 +74,9 @@ $(document).ready(function() {
         if($(this).is('#maul')){
             enemyStats = maulStats
         }
+        if(enemiesCounter ==2){
+            $("#avalableEnemies").hide();
+        }
         console.log(enemyStats);
          }
         }
@@ -72,10 +84,10 @@ $(document).ready(function() {
 
     $("#attackButton").on("click", function() {
         if(heroPicked == true && enemyAlive == true){
-            currentAttackPower = myGuyStats[1] * counter;
+            currentAttackPower = myGuyStats[1] * attackCounter;
             enemyStats[0] = enemyStats[0] - currentAttackPower;
             myGuyStats[0] = myGuyStats[0] - enemyStats[2];
-            counter++;
+            attackCounter++;
             if($(".myGuy").is('#obiWan')){
                 $(".obiWanHP").text(myGuyStats[0]);
             }
@@ -102,22 +114,25 @@ $(document).ready(function() {
             }
             if(enemyStats[0] < 1){
                 enemyAlive = false;
+                enemiesCounter++;
                 $(".enemy").hide();
+                $("#fightSection").hide();
+                $("#defender").hide();
+                if(enemiesCounter == 3){
+                $("#avalableEnemies").show();
+                $("#avalableEnemies").text("Dam yo, you beat em all! Das lit!");
+                }
             }
             if(myGuyStats[0] < 1){
-                
+                $("#yourCharacter").text("You Died Yo! Das bad.");
+                $(".myGuy").hide()
+                $("#fightSection").hide();
+                $("#defender").hide();
+                $("#avalableEnemies").hide();
+
             }
         }
     });
 
 
-      
-    
-    
-    
-
-
 });
-
-// An object to hold the stats of each character:
-        //Health Points, Attack Power, and Counter Attack Power
