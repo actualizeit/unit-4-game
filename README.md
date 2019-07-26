@@ -1,4 +1,4 @@
-# Project Title
+# Da Best Staw Was Game Evah!
 
 This is a game where you fight as a star wars character. You can win and you can lose. Its tuff.
 
@@ -16,7 +16,7 @@ No installation necessary, this thing runs in the browser!
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Click a bunch on stuff and see what happens. Then tell me if you want.
 
 ## Built With
 
