@@ -20,7 +20,7 @@ Click a bunch on stuff and see what happens. Then tell me if you want.
 
 ## Built With
 
-* [VSCode]
+* [VSCode](https://code.visualstudio.com/) - Thanks Microsoft, WOOOOOO! I love this company too Balmer
 * [HTML](https://en.wikipedia.org/wiki/HTML) - You know what that is right?
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - They cascade, like the electronic artist but for webpages.
 * [JavaScript](https://www.javascript.com/) - So much easier than java like omg
