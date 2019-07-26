@@ -1,6 +1,6 @@
 # Project Title
 
-One Paragraph of project description goes here
+This is a game where you fight as a star wars character. You can win and you can lose. Its tuff.
 
 ## Getting Started
 
@@ -8,73 +8,34 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+This game requires an internet connection and browser such as Chrome, Firefox or IE I guess if you're into that kinda thing.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+No installation necessary, this thing runs in the browser!
 
 ## Running the tests
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [VSCode]
+* [HTML](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [CSS](https://maven.apache.org/) - Dependency Management
+* [JavaScript](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+I'm not taking input at the moment, but you know version two won't build itself, so feel free to drop me a line!
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Only the one version for now, but who knows what the future holds!
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **David Bell** - *Initial work* - [ActualizeIt](https://github.com/actualizeit)
 
 ## License
 
@@ -82,6 +43,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* All the great people out there making funny legos star wars pics
+* My dog who still has no idea what I'm doing at my desk all the time but is very patient.
