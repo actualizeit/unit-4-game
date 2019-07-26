@@ -4,7 +4,7 @@ This is a game where you fight as a star wars character. You can win and you can
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Pick a character, pick an opponent to fight, then click attack a bunch. It's basically a diablo clone. The order of the opponents you choose to fight will affect your survival chances. Cause math.
 
 ### Prerequisites
 
