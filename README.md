@@ -21,9 +21,11 @@ Click a bunch on stuff and see what happens. Then tell me if you want.
 ## Built With
 
 * [VSCode]
-* [HTML](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [CSS](https://maven.apache.org/) - Dependency Management
-* [JavaScript](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [HTML](https://en.wikipedia.org/wiki/HTML) - You know what that is right?
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - They cascade, like the electronic artist but for webpages.
+* [JavaScript](https://www.javascript.com/) - So much easier than java like omg
+* [jQuery](https://jquery.com/) - hashtag saving time
+
 
 ## Contributing
 
